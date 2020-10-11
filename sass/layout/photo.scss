@@ -1,0 +1,98 @@
+section {
+    &.section-photo {
+        margin: 10px 0;
+    }
+
+    div {
+        &.photo {
+            background-color: #FFF;
+            padding: 20px;
+            margin: 18px 8px;
+            min-height: 250px;
+
+            img {
+              width: 100%;
+              max-height: 245px;
+            }
+
+            div {
+                &.content {
+                    h2 {
+                        margin: 20px 0;
+                        font-size: 0.9em;
+                        font-weight: 400;
+                        letter-spacing: 5px;
+                    }
+
+                    p {
+                        color: #cccccc;
+                        font-size: 0.7rem;
+                        margin-bottom: 5px;
+
+                        span {
+                            color: #000;
+                            text-transform: uppercase;
+                            font-size: 0.7rem;                        
+                        }
+                    }
+
+                    ul {
+                        display: flex;
+                        float: right;
+                        margin: 30px 0;
+
+                        li {
+                            list-style: none;
+                            margin-left: 10px;
+                            cursor: pointer;
+                            &.btn-like {
+                                background-image: url(./img/formato-de-coracao-preto-para-dia-dos-namorados.svg);
+                                width: 23px;
+                                height: 22px;
+                                background-repeat: no-repeat;
+                                &::after {
+                                    content: " ";
+                                    display: inline-block;
+                                }
+                            }
+
+                            &.btn-like-new {
+                                background-image: url(./img/gostar.svg  );
+                                width: 23px;
+                                height: 22px;
+                                background-repeat: no-repeat;
+                                &::after {
+                                    content: " ";
+                                    display: inline-block;
+                                }
+                            }
+
+                            &.btn-save {
+                                background-image: url(./img/fita.svg);
+                                width: 23px;
+                                height: 22px;
+                                background-repeat: no-repeat;
+                                &::after {
+                                    content: " ";
+                                    display: inline-block;
+                                }
+                            }
+
+                            &.btn-save-new {
+                                background-image: url(./img/save.svg);
+                                width: 23px;
+                                height: 22px;
+                                background-repeat: no-repeat;
+                                &::after {
+                                    content: " ";
+                                    display: inline-block;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

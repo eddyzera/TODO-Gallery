@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-content {
+    width: 70%;
+    margin: 3% auto;
+}
+
+.grid-two-columns {
+    grid-template-columns: 50% 50%;
+}
+
+.grid-four-columns {
+    grid-template-columns: 25% 25% 25% 25%;
+}
